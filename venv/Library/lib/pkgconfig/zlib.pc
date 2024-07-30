@@ -1,0 +1,13 @@
+prefix=C:/My Work/Weekly Task/text_to_sql/venv/Library
+exec_prefix=C:/My Work/Weekly Task/text_to_sql/venv/Library
+libdir=C:/My Work/Weekly Task/text_to_sql/venv/Library/lib
+sharedlibdir=C:/My Work/Weekly Task/text_to_sql/venv/Library/lib
+includedir=C:/My Work/Weekly Task/text_to_sql/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
